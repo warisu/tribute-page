@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+body {
+  font-family: 'Cormorant Garamond', Verdana ,Tahoma, Sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  }
+.bold {
+  font-weight: 700;
+  }
+ul {
+ max-width: 545px;
+ margin: 0 auto 45px auto;
+ text-align: left;
+ line-height: 1.5;
+}
+li{
+  margin: 16px 0;
+  list-style-type: square;
+}
+#main{
+  padding: 15px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  background-color: rgb(237, 233, 232);
+}
+blockquote {
+  max-width: 550px;
+  margin: 0 auto 16px auto;
+  font-style: italic;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover{
+  color: white;
+  box-shadow: inset 200px 0 0 0 blue;;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+#img-caption {
+  margin: auto;
+  font-style: italic;
+}
+@media (max-width: 375px) {
+  #img-caption {
+    max-width: 80%;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1025px), (max-width: 1280px) and (min-width: 1281px){
+  #image {
+    width: 80%;
+  }
+}
+footer {
+  margin: 50px auto 5px auto;
+  max-width: auto;
+}
+#img-div {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 0;
+}
